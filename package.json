@@ -7,7 +7,11 @@
     "build": "turbo run build",
     "start": "turbo run start",
     "typecheck": "turbo run typecheck",
-    "lint": "turbo run lint"
+    "lint": "turbo run lint",
+    "test-data": "node scripts/fetch-test-data.mjs"
+  },
+  "testData": {
+    "repo": "RaliqID/reelshq"
   },
   "devDependencies": {
     "turbo": "^2.0.0"

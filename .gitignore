@@ -24,6 +24,12 @@ yarn-error.log*
 coverage/
 test-data/tmp/
 
+# Media fixtures — large binaries, fetched with `npm run test-data`
+test-data/*.mp4
+*.mp4
+*.mov
+*.mkv
+
 # Editor / OS
 .vscode/
 .idea/
